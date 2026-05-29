@@ -3,8 +3,9 @@
 ### Autonomous Emergency Intelligence for Inclusive Road Safety
 
 <p align="center">
-  <img src="docs/assets/banner.png" alt="RoadGuardian AI Banner" width="100%" />
+ <img width="1919" height="927" alt="Screenshot 2026-05-29 215333" src="https://github.com/user-attachments/assets/fa289737-1881-402a-8ef4-ed3f8cf5df2e" />
 </p>
+
 
 <p align="center">
 
@@ -26,25 +27,21 @@ An offline-first, multi-agent emergency coordination system that combines realti
 
 # 🎥 Demo Preview
 
-🎬 **Demo Video:** Coming Soon
+🎬 **Demo Video:** https://youtu.be/C4Conw7FjcM
 
 📸 **Mission Control Dashboard Preview**
 
-```text
-[ Dashboard Screenshot Placeholder ]
-```
+<img width="1919" height="930" alt="Screenshot 2026-05-29 223514" src="https://github.com/user-attachments/assets/a7d1a0c2-a5c2-4180-b2c0-138f6556e62b" />
 
 📸 **SOS Emergency Activation**
 
-```text
-[ SOS Flow Screenshot Placeholder ]
-```
+<img width="944" height="832" alt="Screenshot 2026-05-29 223815" src="https://github.com/user-attachments/assets/ca9d7499-61f8-4409-a2f4-69c7a1c1a60c" />
 
-📸 **Realtime Multi-Agent Orchestration**
 
-```text
-[ Orchestration Screenshot Placeholder ]
-```
+📸 **Hazard Analyzation**
+
+<img width="1913" height="923" alt="Screenshot 2026-05-29 224149" src="https://github.com/user-attachments/assets/d395bb13-f5da-47ae-a6a6-90b7ee5cea7e" />
+
 
 ---
 
@@ -369,20 +366,11 @@ The system supports:
 
 | Platform | Usage              |
 | -------- | ------------------ |
-| Railway  | Backend hosting    |
+| Render  | Backend hosting    |
 | Vercel   | Frontend hosting   |
 | Supabase | Database & storage |
 
 ---
-
-### Deploy Frontend to Vercel
-
-1. Click the Vercel deployment link: https://vercel.com/new?teamSlug=shakera-projects
-2. Import the `zahid-frontend` directory.
-3. Set environment variables:
-   - `VITE_API_URL` → Your backend URL (e.g., Railway deployment URL)
-   - `VITE_WS_URL` → Your backend WebSocket URL (e.g., `wss://<your-backend>.railway.app/stream`)
-4. Deploy. Use the generated preview URL as the hackathon demo link.
 
 
 # 📂 Repository Structure
@@ -409,7 +397,7 @@ roadguardian-ai/
 ## Backend Setup
 
 ```bash
-cd ema-backend
+cd backend
 
 python -m venv venv
 
@@ -427,7 +415,7 @@ uvicorn main:app --reload
 ## Frontend Setup
 
 ```bash
-cd zahid-frontend
+cd frontend
 
 npm install
 
